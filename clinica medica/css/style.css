@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Comic Neue", cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/stock-vector-healthcare-and-medical-background-with-flat-icons-and-symbols-science-medicine-and-innovation-1331508716.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+
+header{
+    float: right;
+    margin: 40px;
+    padding: 10px;
+    width: 400px; 
+
+}
+
+h1,h2,h3, p{
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+
+}
+
+form{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(235, 235, 243);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+}
+
+button{
+   border-radius: 5px;
+   padding: 10px 40px;
+}
+
+
+

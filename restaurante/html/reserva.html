@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/restaurante.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="../html/index.html">home</a>
+        <a href="#">Contato</a>
+        <a href="#">Reservas</a>
+    </div>
+
+    <div class="content">
+        <h1><i class="material-icons">restaurant</i>
+            Tempero da Mary</h1>
+        <h2>O melhor restaurante da região</h2>
+    </div>
+    <h2 class="titulo-form">Preencha o formulário abaixo!</h2>
+    <div class="container">
+       
+       <form>
+       <p>Nome:
+            <input type="text" required id="inNome">
+         </p>
+         <p>Endereço:
+            <input type="text" required id="inEnd">
+         </p>
+            <p>Telefone:
+             <input type="number" required id="inTel">
+         </p>
+         <p>Forma de pagamento:
+            <input type="radio" name="Debito" id="inDebito">Débito
+            <input type="radio" name="Credito"  id="inCredito" name="Pix">Crédito
+           <!-- <input type="radio" id="inPix">Pix-->
+         </p>
+         <input type="submit" value="Enviar Pedido">
+         <input type="reset" value="Limpar">
+         <h3 id="resp"></h3>
+         <h3 id="resp2"></h3>
+       </form>
+       <script src="../js/reserva.js"></script>
+           
+    </div>
+    <div class="footer">
+        <p>Tempero da Mary &copy;</p>
+        <p>Siga-nos nas redes sociais</p>
+        <img src="../img/faceicon.jpg" alt="" style="width: 18px;" height="auto">
+        <img src="../img/instaicon.webp" alt="" style="width: 18px;" height="auto">
+        <img src="../img/twittericon.png" alt="" style="width: 18px;" height="auto">
+    </div>
+
+</body>
+
+</html>
