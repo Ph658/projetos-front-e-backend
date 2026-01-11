@@ -119,18 +119,17 @@
   }
 
   form {
-      text-align: left;
-      background-color: rgb(158, 158, 129);
-      width: 80%;
+      text-align: center;
+      background-color: rgb(85, 85, 79);
+      width: 40%;
       border: 2px solid #ccc;
       padding: 10px;
-      margin-left: 70px;
+      margin-left: 30%;
       margin-top: 50px;
 
   }
 
-  input,
-  textarea {
+  input, textarea {
       width: 100%;
       padding: 10px;
       margin: 10px 0;
@@ -208,10 +207,14 @@
       }
       .side,.main{
           margin-right: 0;
-          margin-bottom: 20px;
+          margin-bottom: 30px;
       }
 
-      
-      
-      
+      nav a{
+            padding: 10px;
+            font-size: smaller;
+      }
+
+     
+
   }
