@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*body{
+   background-color:#0a1e6b;
+   
+}*/
+
+#form{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+
+}
+
+#form img{  
+    margin-top: 10%;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+#form input[type=Email],
+#form input[type=password]{
+    font-size: 16px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #6eadaa;
+}
+
+
+
+#form input[type=submit]{
+    font-size: 16px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: rgb(5, 38, 128);
+    border: 0;
+
+}
+
+
