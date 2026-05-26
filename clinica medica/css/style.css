@@ -14,10 +14,16 @@ body{
 }
 
 header{
-    float: right;
-    margin: 40px;
-    padding: 10px;
-    width: 400px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+    margin-left: 60%;
+    padding: 4px;
+    width: 500px; 
 
 }
 
@@ -28,19 +34,47 @@ h1,h2,h3, p{
 
 }
 
-form{
-    padding: 10px;
+
+
+form, [type= "text"], [type="number"]{
+    padding: 4px;
     border: 1px solid black;
     text-align: center;
-    background-color: rgb(235, 235, 243);
+    background-color: rgb(234, 234, 243);
     border-radius: 10px;
-    box-shadow: 0 5px 10px;
+    width: 100%;
 }
 
-button{
-   border-radius: 5px;
-   padding: 10px 40px;
+form [type="submit"], [type="reset"]{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 30px 5px 30px;
 }
+
+
+
+
+@media (max-width:768px){
+
+    header{
+        
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;       
+    }
+    
+
+}
+    
+
 
 
 
