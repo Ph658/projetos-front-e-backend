@@ -53,7 +53,7 @@
 
     /* Estilos gerais */
     .container {
-      margin-left: 15%;
+      margin-left: 2%;
       display: flex;
       gap: 20px;
     }
@@ -64,9 +64,11 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       overflow: hidden;
-      width: 200px;
+      width: 80%;
       text-align: center;
       padding: 10px;
+      
+      
       
     }
 
@@ -168,11 +170,11 @@
 
       form{
         width: 80%;
-        margin-right:40%;
+        margin-right:30%;
       }
 
       .card{
-        margin-right: 20%;
+        margin-left: 3%;
       }
      
     }
