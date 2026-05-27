@@ -12,6 +12,8 @@
     .topnav {
       overflow: hidden;
       background-color: #b98ba7;
+      margin-left: 10%;
+      margin-right: 10%;
      
     }
 
@@ -21,7 +23,7 @@
       display: block;
       color: #f2f2f2;
       text-align: center;
-      padding: 14px 16px;
+      padding: 10px 10px;
       text-decoration: none;
     }
 
@@ -33,6 +35,8 @@
 
     /* Style the content */
     .content {
+      margin-left: 10%;
+      margin-right: 10%;
       background-color: #f7bdbd;
       padding: 10px;
       height: 200px;
@@ -146,6 +150,8 @@
 
     /* Style the footer */
     .footer {
+      margin-left: 10%;
+      margin-right: 10%;
       box-shadow: 0 -4px 10px;
       background-color: #b98ba7;
       padding: 10px;
