@@ -30,7 +30,7 @@
 
 #form input[type=Email],
 #form input[type=password]{
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 10px;
     padding-left: 10px;
     display: block;
